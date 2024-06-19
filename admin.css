@@ -1,0 +1,64 @@
+
+ /* admin.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.head-view ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.head-view ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#admin-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment-display, .photo-display {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.user-comment-name, .profile-pics {
+    display: flex;
+    align-items: center;
+}
+
+.user-comment-name img, .profile-pics img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.btn-delete {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #cc0000;
+}
